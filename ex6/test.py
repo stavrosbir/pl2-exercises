@@ -6,4 +6,4 @@ files = os.listdir('testCases/')
 
 for file in files:
 	print file
-	call(['./fungi', 'testCases/'+file])
+	call(['./befunge_interpreter', 'testCases/'+file])
